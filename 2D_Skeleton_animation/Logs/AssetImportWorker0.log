@@ -458,6 +458,7 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (49ms)
 				ProcessInitializeOnLoadAttributes (179ms)
 				ProcessInitializeOnLoadMethodAttributes (15ms)
+<<<<<<< Updated upstream
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -514,11 +515,14 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (50ms)
 				ProcessInitializeOnLoadAttributes (179ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
+=======
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
@@ -527,6 +531,16 @@ System memory in use after: 97.2 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2674.
 Total: 2.834800 ms (FindLiveObjects: 0.173600 ms CreateObjectMapping: 0.079200 ms MarkObjects: 2.516000 ms  DeleteObjects: 0.065100 ms)
+=======
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.2 MB.
+System memory in use after: 97.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2673.
+Total: 2.811100 ms (FindLiveObjects: 0.172400 ms CreateObjectMapping: 0.070800 ms MarkObjects: 2.501600 ms  DeleteObjects: 0.065700 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -538,6 +552,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< Updated upstream
 ========================================================================
 Received Import Request.
   Time since last request: 118.289790 seconds.
@@ -557,3 +572,5 @@ Received Import Request.
   artifactKey: Guid(898f4d1ee6d354f41a7286d34d9af83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/PlayerAnimationJump.anim using Guid(898f4d1ee6d354f41a7286d34d9af83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6844dfa2c20fc55e58b7d518b5e51388') in 0.002689 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+>>>>>>> Stashed changes
